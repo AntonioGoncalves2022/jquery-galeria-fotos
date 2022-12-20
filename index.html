@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="mai.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereço-imagem-nova" required placeholder="url da imagem" />
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./Imagens/IMG_20211112_205415306.jpg" alt="Lorenzo" />
+            <div class="overlay-imagem-link">
+                <a href="./Imagens/IMG_20211112_205415306.jpg" title="Ver a imagem em tamanho real" target="_blank">
+                    Ver a imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./Imagens/IMG_20220521_134933917_HDR.jpg" alt="Lorenzo">
+            <div class="overlay-imagem-link">
+                <a href="./Imagens/IMG_20220521_134933917_HDR.jpg" title="Ver a imagem em tamanho real" target="_blank">
+                    Ver a imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./Imagens/IMG_20220607_184427649.jpg" alt="Lorenzo">
+            <div class="overlay-imagem-link" >
+                <a href="./Imagens/IMG_20220607_184427649.jpg" title="Ver a imagem em tamanho real" target="_blank">
+                    Ver a imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
